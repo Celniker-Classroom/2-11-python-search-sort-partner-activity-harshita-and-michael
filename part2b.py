@@ -9,7 +9,8 @@ for number in range(10): #for loop appends 5 numbers to your list, but make sure
     numbers.append(randint(1,50)) #this adds a random number between 1-50 to the list
 print(f"Generated list: {numbers}")
 
-random_number_to_search = int(input("Search for a number: "))
+random_number_to_search = randint(1, 10)
+print(f"Searching for number {random_number_to_search}")
 
 for number in numbers:  # Name your variable in the for loop
     comparisons += 1  # Increment the counter for each comparison
